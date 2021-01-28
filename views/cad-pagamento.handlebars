@@ -1,10 +1,84 @@
-<h1>Formulário para cadatrar pagamento</h1>
-<form action="/add-pagamento" method="POST">
-    <label>Nome</label>
-    <input type="text" name="nome"><br><br>
+<!DOCTYPE html>
+<html lang="pt-br">
 
-    <label>Valor</label>
-    <input type="text" name="valor"><br><br>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cadastro Binahki</title>
 
-    <button type="submit">Cadastrar</button>
-</form>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+
+    <!-- {{#each css}}
+    <link rel="stylesheet" href="../css/{{this}}">
+    {{/each}}
+
+    <link rel="stylesheet" href="../css/style.css" type='text/css'>
+    <link rel="stylesheet" href="../public/style.css" type='text/css'>
+
+     <link rel="stylesheet" href="/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.js">
+    
+        {{#each js}}
+    <script src="/js/{{this}}"></script>
+    {{/each}}
+
+    
+    -->
+
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/js/bootstrap.min.js">
+
+</head>
+
+
+
+<h1 id="h11">RECEBA NOSSO MATERIAL GRATUITAMENTE!</h1>
+<div id="div01">
+   
+ 
+ <div>
+  <img id="img01" width= "300px" height= "300px" src="./livro.png" alt="Minha Figura"/>
+</div>
+
+
+            <form action="/add-pagamento" method="POST">
+            
+            
+   <div id="div02">
+    <h2>Superando a Pandemia com a indústria 4.0<h2>
+            <h3>Preencha agora para receber:<h3>
+        </div>    
+                <label>Nome</label>
+                <input type="text" name="nome"><br><br>
+
+                <label>Valor tirar</label>
+                <input type="text" name="valor"><br><br>
+
+                <label>Email</label>
+                <input type="text" name="email"><br><br>
+
+                <label>empresa</label>
+                <input type="text" name="empresa"><br><br>
+
+                <label for="questao">Qual a questão mais crítica da sua empresa hoje?</label>
+                <br>
+
+                <select name="questao" id="questao">
+                    <option value="monitoramento">monitoramento</option>
+                    <option value="gestao">gestao</option>
+                    <option value="consultores">cinsultores</option>
+                    <option value="outra">outra</option>
+                </select>
+                <br>
+                <label for="w3review">Outra:</label><br>
+                <textarea id="w3review" name="w3review" rows="4" cols="50">
+</textarea>
+
+                <button type="submit">Cadastrar</button>
+            </form>
+
+            
+</div>

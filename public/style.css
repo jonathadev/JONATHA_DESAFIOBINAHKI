@@ -1,0 +1,82 @@
+body {
+    background-color: rgba(0, 0, 255, 0.733);
+    width: 100%;
+    justify-content: center;
+height: 100%;
+
+
+align-items: center;
+}
+
+h1#h11 {
+    text-align: center;
+    color: white;
+}
+
+img#img01{
+float: left;    
+}
+
+div#div02{
+    text-align: left;
+    color: black;
+}
+
+div#div01 {
+
+    display: inline-flex;
+    
+    align-items: center;
+
+    text-align: left;
+    color: black;
+    /*definios a largura do box*/
+    width: 100%;
+    /* definimos a altura do box */
+    height: auto;
+    /* definimos a cor de fundo do box */
+    background-color: white;
+    /*     border-radius: 10px;
+ definimos o quão arredondado irá ficar nosso box */
+ border-radius: 10px;
+
+ 
+}
+
+form {
+    color: blue;
+    width: 100%;
+}
+
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+textarea{
+    
+    width: 100%;
+    
+}
