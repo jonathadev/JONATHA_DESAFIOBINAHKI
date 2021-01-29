@@ -9,27 +9,61 @@
 
     <link rel="stylesheet" type="text/css" href="./listar.css" />
 
-
-    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
-    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/node_modules/bootstrap/dist/js/bootstrap.min.js">
-
 </head>
 
-<div id="wave">
+<!--<div id="wave"> </div>-->
+    <div id="divonda01">
+<img id="imgonda01"  src="./pag 2 onda.png" alt="Minha Figura" />
+
 </div>
 
 
 <div>
-<h1>Dados inseridos:</h1>
+   <!-- <u><h2>Dados inseridos:</h2></u>-->
 
-{{#each pagamentos}}
+    {{#each pagamentos}}
     ID: {{id}}<br>
     Nome: {{nome}}<br>
     Valor: {{valor}}<br>
     Cadastrado: {{#formatDate createdAt}}{{/formatDate}}<br>
     <hr>
-{{/each}}
-
+    {{/each}}
 
 </div>
+
+
+<div id="divbaixarprinc">
+    <div>
+        <img id="img01" width="300px" height="300px" src="./livrotirarfundo-removebg-preview.png" alt="Minha Figura" />
+    </div>
+
+    <div id="divbaixar">
+
+        <div>
+
+            <u><h3>E-book:</h3></u>
+            <p>Agradecemos por adiquirir nosso E-book. Clique no botão abaixo para iniciar o Download.
+            </p>
+
+            <a href="https://drive.google.com/file/d/1WPxZqdSVOWMAHKgDrn5aboVpVQ0w2VNE/view?usp=sharing"
+                target="_blank"><button id="btnbaixar">BAIXAR</button></a>
+        </div>
+
+    </div>
+
+</div>
+
+
+<div id="divagrad">
+    <h3>Agradecemos a confiança!</h3>
+    <p>Para outros cálculos Real-Time como este, veja mais informações sobre nossos produtos na página online da <a
+            href="https://binahki.com.br/">Binaki</a>.
+    </p>
+</div>
+
+
+    <div id="divonda02">
+<img id="imgonda02"  src="./pag2 onda baixo.png" alt="Minha Figura" />
+
+</div>
+<!--<div id="wave"> </div>-->
