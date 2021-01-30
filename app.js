@@ -45,7 +45,7 @@ app.post('/add-pagamento', function(req, res){
         w3review: req.body.w3review
     }).then(function(){
         res.redirect('/pagamento')
-        res.send("Foi concluído com sucesso o registro.!")
+        //res.send("Foi concluído com sucesso o registro.!")
     }).catch(function(erro){
         res.send("Erro: Não foi cadastrado com sucesso!" + erro)
     })
