@@ -42,9 +42,9 @@ app.post('/add-pagamento', function(req, res){
         valor: req.body.valor
     }).then(function(){
         res.redirect('/pagamento')
-        //res.send("Pagamento cadastro com sucesso!")
+        res.send("Foi concluído com sucesso o registro.!")
     }).catch(function(erro){
-        res.send("Erro: Pagamento não foi cadastrado com sucesso!" + erro)
+        res.send("Erro: Não foi cadastrado com sucesso!" + erro)
     })
     //res.send("Nome: " + req.body.nome + "<br>Valor: " + req.body.valor + "<br>") 
 })

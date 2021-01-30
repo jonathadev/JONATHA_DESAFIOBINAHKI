@@ -13,10 +13,18 @@
     "mysql2": "^1.6.5",
     "sequelize": "^5.22.3"
   },
+  "engines": {
+    "node": "12.16.1"
+  },
+
   "devDependencies": {},
   "scripts": {
     "test": "echo \\\"Error: no test specified\\\" && exit 1"
   },
   "author": "Cesar Szpak",
   "license": "ISC"
+
+ 
 }
+
+
