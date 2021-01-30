@@ -2,9 +2,11 @@
 
 npm i
 
-configurar banco de dados
+configurar banco de dados mysql
 
-node app.js
+npm install express-handlebars
+
+node app.js ou nodemon app.js pra nao precisar desligar a aplicacao
 
 http://localhost:8080/cad-pagamento
 
@@ -16,7 +18,7 @@ https://www.youtube.com/watch?v=TavTaLemiQo&list=PLmY5AEiqDWwBHJ3i_8MDSszXXRTcFd
 Tecnologias:
 node express
 nodemon pra executar projeto
-handlebar 
+handlebars para o node express 
 mysql
 mysql workbench
 
