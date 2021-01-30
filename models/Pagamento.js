@@ -6,7 +6,16 @@ const Pagamento = db.sequelize.define('pagamentos', {
     },
     valor: {
         type: db.Sequelize.DOUBLE
-    }
+    },
+    empresa: {
+        type: db.Sequelize.STRING
+    },
+    questao: {
+        type: db.Sequelize.STRING
+    },
+    w3review: {
+        type: db.Sequelize.STRING
+    },
 })
 
 //Criar a tabela

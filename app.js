@@ -32,14 +32,17 @@ app.get('/pagamento', function(req, res){
     
 });
 
-app.get('/cad-pagamento', function(req, res){
+app.get('/', function(req, res){
     res.render('cad-pagamento');
 });
 
 app.post('/add-pagamento', function(req, res){
     Pagamento.create({
         nome: req.body.nome,
-        valor: req.body.valor
+        valor: req.body.valor,
+        empresa: req.body.empresa,
+        questao: req.body.questao,
+        w3review: req.body.w3review
     }).then(function(){
         res.redirect('/pagamento')
         res.send("Foi concluído com sucesso o registro.!")

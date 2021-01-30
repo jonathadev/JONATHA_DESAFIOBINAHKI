@@ -7,8 +7,10 @@ configurar banco de dados mysql
 npm install express-handlebars
 
 node app.js ou nodemon app.js pra nao precisar desligar a aplicacao
+ou heroku local/ heroku open
+http://localhost:5000/
 
-http://localhost:8080/cad-pagamento
+http://localhost:3000/
 
 salvar
 https://www.youtube.com/watch?v=LAK1XptdZX8&list=PLmY5AEiqDWwBHJ3i_8MDSszXXRTcFdkSu&index=13&ab_channel=Celke
@@ -21,12 +23,12 @@ nodemon pra executar projeto
 handlebars para o node express 
 mysql
 mysql workbench
+heroku
 
 Faltando 
 captar demais dados para o banco e aparecer também
 melhorar css
 excluir?
-pagina inicial?
 altualizar?
 
 
