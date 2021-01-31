@@ -26,7 +26,16 @@ button#btnenviar {
   height: 35px;
   border-radius: 5px;
   font-size: 10px;
+
+  
 }
+
+
+button#btnenviar:hover {
+  background-color: white;
+  color: black;
+}
+
 
 h1#h11 {
   text-align: center;

@@ -15,25 +15,29 @@
     <link rel="stylesheet" href="/node_modules/bootstrap/dist/js/bootstrap.min.js">
 
 -->
-    <div id="divonda01">
-<img id="imgonda01"  src="./pag_2_onda.PNG" alt="Minha Figura pag2 onda" />
+<div id="divonda01">
+    <img id="imgonda01" src="./pag_2_onda.PNG" alt="Minha Figura pag2 onda" />
 
 </div>
 
 
 
-   <!-- <u><h2>Dados inseridos:</h2></u>-->
+<!-- <u><h2>Dados inseridos:</h2></u>-->
 
-    {{#each pagamentos}}
-    ID: {{id}}<br>
-    Nome: {{nome}}<br>
-   <!-- Valor: {{valor}}<br> -->
-    Cadastrado: {{#formatDate createdAt}}{{/formatDate}}<br>
-     Empresa: {{empresa}}<br>
-      Questão: </h2>{{questao}}<br>
-       Outra: </h2>{{w3review}}<br>
-    <hr>
-    {{/each}}
+{{#each pagamentos}}
+Nome: {{nome}}<br>
+<!-- Valor: {{valor}}<br> -->
+Empresa: {{empresa}}<br>
+Questão mais critica da empresa: </h2>{{questao}}<br>
+Se outra questão ou mais detalhes: </h2>{{w3review}}<br>
+
+Cadastrado em: {{#formatDate createdAt}}{{/formatDate}}<br>
+Codigo: {{id}}<br>
+
+<a href="/del-pagamento/{{id}}"><button id="btnapagar">Apagar</button></a>
+
+<hr>
+{{/each}}
 
 
 
@@ -47,7 +51,9 @@
 
         <div>
 
-            <u><h3>E-book:</h3></u>
+            <u>
+                <h3>E-book:</h3>
+            </u>
             <p>Agradecemos por adiquirir nosso E-book. Clique no botão abaixo para iniciar o Download.
             </p>
 
@@ -68,9 +74,8 @@
 </div>
 
 
-    <div id="divonda02">
-<img id="imgonda02"  src="./pag2_onda_baixo.PNG" alt="Minha Figura pag2 onda baixo" />
+<div id="divonda02">
+    <img id="imgonda02" src="./pag2_onda_baixo.PNG" alt="Minha Figura pag2 onda baixo" />
 
 </div>
 <!--<div id="wave"> </div>-->
-

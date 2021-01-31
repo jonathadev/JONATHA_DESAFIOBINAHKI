@@ -57,9 +57,9 @@ app.get('/del-pagamento/:id', function(req, res){
         where: {'id': req.params.id}
     }).then(function(){
         res.redirect('/pagamento');
-        /*res.send("Pagamento apagado com sucesso!");*/
+        /*res.send("Apagado com sucesso!");*/
     }).catch(function(erro){
-        res.send("Pagamento não apgado com sucesso!");
+        res.send("Não apagado com sucesso!");
     })
 });
 
