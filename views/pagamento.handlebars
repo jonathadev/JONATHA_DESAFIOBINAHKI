@@ -11,7 +11,10 @@
 
 </head>
 
-<!--<div id="wave"> </div>-->
+<!--<div id="wave"> </div>
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/js/bootstrap.min.js">
+
+-->
     <div id="divonda01">
 <img id="imgonda01"  src="./pag_2_onda.PNG" alt="Minha Figura pag2 onda" />
 
@@ -24,7 +27,7 @@
     {{#each pagamentos}}
     ID: {{id}}<br>
     Nome: {{nome}}<br>
-    Valor: {{valor}}<br>
+   <!-- Valor: {{valor}}<br> -->
     Cadastrado: {{#formatDate createdAt}}{{/formatDate}}<br>
      Empresa: {{empresa}}<br>
       Questão: </h2>{{questao}}<br>
@@ -70,3 +73,4 @@
 
 </div>
 <!--<div id="wave"> </div>-->
+
