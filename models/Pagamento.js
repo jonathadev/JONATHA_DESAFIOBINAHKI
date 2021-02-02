@@ -7,6 +7,9 @@ const Pagamento = db.sequelize.define('pagamentos', {
    // valor: {
      //   type: db.Sequelize.DOUBLE
     //},
+    email: {
+        type: db.Sequelize.STRING
+    },
     empresa: {
         type: db.Sequelize.STRING
     },
