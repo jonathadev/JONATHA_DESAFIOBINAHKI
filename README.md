@@ -33,7 +33,7 @@ http://localhost:5000/
 Faltando
 hospedar também no umbler?
 x2 branches
-
+email
 
 Futuras melhorias
 
