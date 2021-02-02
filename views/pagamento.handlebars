@@ -12,25 +12,20 @@
 </head>
 
 <!--<div id="wave"> </div>
-    <link rel="stylesheet" href="/node_modules/bootstrap/dist/js/bootstrap.min.js">
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/js/bootstrap.min.js">-->
 
--->
 <div id="divonda01">
     <img id="imgonda01" src="./pag_2_onda.PNG" alt="Minha Figura pag2 onda" />
 
 </div>
 
-
-
-<!-- <u><h2>Dados inseridos:</h2></u>-->
-
 {{#each pagamentos}}
 Nome: {{nome}}<br>
-<!-- Valor: {{valor}}<br> -->
 E-mail: {{email}}<br>
+Telefone: {{telefone}}<br>
 Empresa: {{empresa}}<br>
-Questão mais critica da empresa: </h2>{{questao}}<br>
-Se outra questão ou mais detalhes: </h2>{{w3review}}<br>
+Questão mais critica da empresa: {{questao}}<br>
+Se outra questão ou mais detalhes: {{areatexto}}<br>
 
 Cadastrado em: {{#formatDate createdAt}}{{/formatDate}}<br>
 Codigo: {{id}}<br>

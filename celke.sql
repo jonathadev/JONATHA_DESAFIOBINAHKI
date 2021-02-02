@@ -11,3 +11,6 @@ CREATE TABLE IF NOT EXISTS `pagamentos` (
 INSERT INTO `pagamentos` (`id`, `nome`, `valor`, `createdAt`, `updatedAt`) VALUES
 (1, 'Energia', 220, '2019-05-05 15:03:53', '2019-05-05 15:03:53');
 COMMIT;
+
+
+tabela zoada essas "`"

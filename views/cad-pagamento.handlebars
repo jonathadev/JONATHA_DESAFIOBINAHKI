@@ -29,14 +29,13 @@
         </div>
 
 
-        <label>Nome</label>
+        <label>Nome*</label>
         <input type="text" name="nome"><br><br>
-<!--
-        <label>Valor</label>
-        <input type="text" name="valor"><br><br> -->
-
-        <label>Email*</label>
+    
+        <label>E-mail*</label>
         <input type="text" name="email"><br><br>
+        <label>Telefone*</label>
+        <input type="text" name="telefone"><br><br>
 
         <label>Empresa*</label>
         <input type="text" name="empresa"><br><br>
@@ -51,14 +50,25 @@
             <option value="outra">Outra</option>
         </select>
         <br>
-        <label for="w3review">Conte-nos qual é a questão mais crítica de seu negócio(caso a opção anterior tenha sido
+
+        <label>Conte-nos qual é a questão mais crítica de seu negócio(caso a opção anterior tenha sido
             "Outra") ou mais detalhes:</label><br>
-        <textarea id="w3review" name="w3review" rows="4" cols="50">
-</textarea>
+        <textarea name="areatexto"></textarea>
 
-        <button id ="btnenviar" type="submit">ENVIAR</button>
+        <button id="btnenviar" type="submit">ENVIAR</button>
 
-        <!--Informe ao usuário que foi concluído com sucesso o registro.-->
     </form>
 </div>
 
+<!-- consertar visualizar select/ email e areatexto dados banco  <form  id="form02"action="/action_page.php">
+  <label for="cars">Choose a car:</label>
+  <select name="cars" id="cars">
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+    <option value="opel">Opel</option>
+    <option value="audi">Audi</option>
+  </select>
+  <br><br>
+  <input type="submit" value="Submit">
+</form>
+  <br>-->

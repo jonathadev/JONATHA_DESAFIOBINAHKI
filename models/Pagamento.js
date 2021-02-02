@@ -4,10 +4,10 @@ const Pagamento = db.sequelize.define('pagamentos', {
     nome: {
         type: db.Sequelize.STRING
     },
-   // valor: {
-     //   type: db.Sequelize.DOUBLE
-    //},
     email: {
+        type: db.Sequelize.STRING
+    },
+    telefone: {
         type: db.Sequelize.STRING
     },
     empresa: {
@@ -16,9 +16,9 @@ const Pagamento = db.sequelize.define('pagamentos', {
     questao: {
         type: db.Sequelize.STRING
     },
-    w3review: {
+    areatexto: {
         type: db.Sequelize.STRING
-    },
+    }
 })
 
 //Criar a tabela

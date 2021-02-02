@@ -10,6 +10,7 @@ nodemon pra executar projeto
 handlebars para o node express 
 mysql cleardb
 mysql workbench
+sequelize npm i sequelize
 heroku
 bootstrap
 css
