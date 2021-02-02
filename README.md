@@ -34,11 +34,13 @@ http://localhost:5000/
 Faltando
 hospedar também no umbler?
 x2 branches
-email
+xemail
 
-Futuras melhorias
+Possiveis melhorias
 
 modificar rotas
+modicar tabela
+validadores de formulario
 melhorar css
 atualizar/editar?
 se outra retirar seletor? abrir textarea
